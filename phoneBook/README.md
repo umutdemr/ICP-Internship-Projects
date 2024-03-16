@@ -1,6 +1,6 @@
 
 
-# Motoko Telefon Rehberi
+# Telefon Rehberi
 
 Bu proje, Motoko programlama dilini kullanarak Internet Computer Protocol (ICP) üzerinde çalışan basit bir telefon rehberi akıllı sözleşmesi (aktör) içerir. Bu akıllı sözleşme kullanıcıların isimlerine göre telefon girişlerini eklemelerine ve sorgulamalarına izin verir.
 
