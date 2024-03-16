@@ -18,14 +18,18 @@ let NewSuperheroId = Superheroes.create({
 }).
 ```
 - Bir süper kahramanın bilgilerini okumak
+```
 let SuperheroInfo = Superheroes.read(NewSuperheroId).
-
+```
 - Bir süper kahramanın bilgilerini güncellemek
+```
 let UpdatedSuperhero = {
   name: "Spider-Man",
   superpowers: ["Agility", "Web-slinging", "Spidey sense", "Super strength"]
 }.
 let IsUpdated = Superheroes.update(NewSuperheroId, UpdatedSuperhero).
-
+```
 - Bir süper kahramanı silmek
+```
 let IsDeleted = Superheroes.delete(NewSuperheroId).
+```
