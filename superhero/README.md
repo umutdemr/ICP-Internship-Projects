@@ -11,11 +11,12 @@ Bu proje, süper kahramanların oluşturulması, okunması, güncellenmesi ve si
   ## API'nin kullanımıyla ilgili örnekler:
 
 - Yeni bir süper kahraman oluşturmak
+```
 let NewSuperheroId = Superheroes.create({
   name: "Spider-Man",
   superpowers: ["Agility", "Web-slinging", "Spidey sense"]
 }).
-
+```
 - Bir süper kahramanın bilgilerini okumak
 let SuperheroInfo = Superheroes.read(NewSuperheroId).
 
