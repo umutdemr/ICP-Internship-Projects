@@ -3,7 +3,7 @@ Bu proje, süper kahramanların oluşturulması, okunması, güncellenmesi ve si
 
 ## Proje, aşağıdaki temel işlevleri sağlayan bir API sunar:
 
-- **create(superhero: Superhero): Yeni bir süper kahraman oluşturur ve bir süper kahraman kimliği döndürür.
+- create(superhero: Superhero): Yeni bir süper kahraman oluşturur ve bir süper kahraman kimliği döndürür.
 - **read(superheroId: SuperheroId): Belirli bir süper kahramanın bilgilerini okur.
 - **update(superheroId: SuperheroId, superhero: Superhero): Varolan bir süper kahramanın bilgilerini günceller.
 - **delete(superheroId: SuperheroId): Bir süper kahramanı siler.
